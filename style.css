@@ -1,50 +1,48 @@
-.aside1{
-padding-top:70px;
-padding-right: 40px;
-	background-color: #232343;
-	width: 30%;
-	 float: left;
-	 height: 100%;
-	 display: inline-block;
-     text-align: right;
-padding-bottom: 50%;
-	 
+/*------------Abdulrahman---------------*/
+/*------------Burak---------------*/
+/*------------Kaan---------------*/
+/*------------Lobana---------------*/
+.sizel{
+	font-size: 3.5em;
+	text-shadow: 2px 2px 4px #007bff;
 }
-.aside1 b{
-	border: 1px solid white; color: white;
-padding: 5px;
+.bgblack{
+	background-color: black;
 }
-
-
-.aside2{
-padding: 40px;
-width: 60%;
-display: inline-block;
+.slid-text-sh{
+	text-shadow: 2px 3px 5px black !important;
+	color: white !important;
+}
+.quarter{
+	height: 50% !important;
+	width: 50% !important;
+	float: left;
+}
+.opacity40{
+	opacity: 0%;
+}
+.borderbtm{
+	border-bottom: 0.50em dotted #007bff !important;
+	width: 1% !important;
+	height: 1% !important;
+}
+.bordernone{
+	border: none !important;
+	background-color: #007bff !important;
+}
+.quarter:hover img{
+	opacity: 20% !important;
+}
+.quarter:hover .opacity40{
+	color: white;
+	opacity: 100%;
 }
 img{
-	
-	width: 250px;
-	float: left;
-	margin: 10px;
+	height: 100% !important;
+	width: 100% !important;
 }
-.img{
-	
-	display: inline-block;
-	
-}
-.footer a{
-
-text-decoration: none;
-color: gray;
-
-
-}
-.footer{
-margin-left: 280px;
-	display: inline-block;
-
-
-}
-.clear{
-	clear: both;
+.coll{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
